@@ -1,0 +1,261 @@
+
+
+                                    /* navbar starts here */
+
+.navbar-toggler{
+    background-color: #000; 
+    border-color: #fff;
+}
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #333333 !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3 !important;
+}
+.container .navbar a.nav-link:hover{
+    color: rgb(255, 17, 0);    
+}
+                                     /* navbar ends here */
+
+                                      /* hero starts here */
+/* .hero{
+    
+} */
+.hero .container{
+    background-color: #F5FCFF;
+}
+.hero h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.hero p{
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+.hero img{
+    max-width: 100%;
+    height: auto;
+    margin: 100px;
+}
+
+                                            /* hero ends here */
+
+                                            /* expertise starts here */
+.expertise{
+    padding: 60px 0;
+    text-align: center;
+}
+.expertise h6{
+    font-weight: 500;
+    color: #6c757d;
+}
+.expertise h1{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.card{
+    padding: 20px;
+    border: none;
+    background: #F5FCFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.card img{
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    margin-bottom: 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.card h4{
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.card p {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+                                            /* expertise ends here */
+
+                                            /* about starts here */
+.about{
+    padding: 60px 0; /* Adds space around the section */
+}
+.about img{
+    max-width: 65%; /* Ensures the image is responsive */
+    height: auto;
+    border-radius: 50%; /* Optional: adds rounded corners */
+}
+.about h4{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about p{
+    color: #6c757d;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+                                                 /* about ends here */
+
+                                                  /* portfolio starts here */
+.portfolio{
+    padding: 60px 0;
+}
+.portfolio-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.portfolio h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.portfolio button {
+    background-color: #E62872;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.portfolio button:hover {
+    background-color: #0056b3;
+}
+.port-card{
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.port-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 0;
+}
+.port-card h4 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+    font-weight: 600;
+}
+.port-card p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+.port-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    position: relative;
+}
+.port-card a::after {
+    content: ' →';
+    color: #007bff;
+    font-size: 1.1rem;
+    position: relative;
+    left: 2px;
+    transition: left 0.2s ease;
+}
+.port-card a:hover::after {
+    left: 5px;
+}
+                                                            /* portfolio starts here */
+
+                                                    /* Customer testimonials starts here */
+
+.customer-testimonial{
+    background: #F5FCFF; 
+}
+.star-rating .fa-star {
+    color: #006B6A;
+    font-size: 1rem;
+}
+.customer-testimonial .card {
+    border: 1px solid #006B6A;
+    
+}
+                                                    /* Customer testimonials ends here */
+
+                                                    /* contact me starts here */
+
+.contact-form-container {
+    max-width: 50%;
+    margin: auto;
+}
+.contact-form-container input,
+.contact-form-container select,
+.contact-form-container textarea {
+    border: 0.5px solid #5E3BEE; /* Green border color */
+    border-radius: 3px;
+}
+                                                     /* contact me ends here */
+
+                                                     /* footer starts here */
+
+
+.footer-sec {
+    background-color: #F5FCFF; 
+    color: #343a40; 
+}
+
+.footer-links a,
+.footer-policy-link {
+    color: #343a40;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-links a:hover,
+.footer-policy-link:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-social a {
+    margin: 0 5px;
+}
+
+.footer img.logo-img {
+    max-width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .footer-links,
+    .footer-policy-link {
+        text-align: center;
+    }
+
+    .footer-social a {
+        width: 30px;
+        height: 30px;
+    }
+}
